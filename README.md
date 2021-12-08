@@ -10,16 +10,16 @@ Set up required :
 
 Steps for login using selenium with java:
 1.	Create a Selenium WebDriver instance
-Webdriver driver=new ChromeDriver();
+    Webdriver driver=new ChromeDriver();
 
 2	Configure browser if required
-driver.manage().window().maximize()
+    driver.manage().window().maximize()
 
 3.	Navigate to the required web page
-driver.manage().window().maximize()
+    driver.manage().window().maximize()
 
 4.	Locate the relevant web element
-driver.get(“https://qa.rtcamp.net/activity/”);
+    driver.get(“https://qa.rtcamp.net/activity/”);
 
 5.	Perform action on the web element
 6.	Verify and validate the action
